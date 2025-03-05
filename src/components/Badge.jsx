@@ -1,7 +1,7 @@
-export default function Badge() {
+export default function Badge({children="Badge"}) {
     return (
         <div className="badge">
-            Badge
+            {children}
         </div>
     )
 }
