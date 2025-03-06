@@ -1,34 +1,34 @@
 export const colors = [
     {
-        backgroundColor: "#F3F4F6",
-        color: "#1F2937"
+        backgroundColor: "var(--badge-gray-bg)",
+        color: "var(--badge-gray-txt)"
     },
     {
-        backgroundColor: "#FEE2E2",
-        color: "#991B1B"
+        backgroundColor: "var(--badge-red-bg)",
+        color: "var(--badge-red-txt)"
     },
     {
-        backgroundColor: "#FEF3C7",
-        color: "#92400E"
+        backgroundColor: "var(--badge-yellow-bg)",
+        color: "var(--badge-yellow-txt)"
     },
     {
-        backgroundColor: "#D1FAE5", 
-        color: "#065F46"
+        backgroundColor: "var(--badge-green-bg)",
+        color: "var(--badge-green-txt)"
     },
     {
-        backgroundColor: "#DBEAFE",
-        color: "#1E40AF"
+        backgroundColor: "var(--badge-blue-bg)",
+        color: "var(--badge-blue-txt)"
     },
     {
-        backgroundColor: "#E0E7FF",
-        color: "#3730A3"
+        backgroundColor: "var(--badge-indigo-bg)",
+        color: "var(--badge-indigo-txt)"
     },
     {
-        color: "#5B21B6",
-        backgroundColor: "#EDE9FE"
+        backgroundColor: "var(--badge-purple-bg)",
+        color: "var(--badge-purple-txt)"
     },
     {
-        backgroundColor: "#FCE7F3",
-        color: "#9D174D"
+        backgroundColor: "var(--badge-pink-bg)",
+        color: "var(--badge-pink-txt)"
     }
 ]
