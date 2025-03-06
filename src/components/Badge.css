@@ -3,3 +3,48 @@
     padding: 0.5em 0.75em;
     border-radius: 4px;
 }
+
+.gray {
+    background-color: var(--badge-gray-bg);
+    color: var(--badge-gray-txt);
+}
+
+.red {
+    background-color: var(--badge-gray-bg);
+    color: var(--badge-gray-txt);
+}
+
+.red {
+    background-color: var(--badge-red-bg);
+    color: var(--badge-red-txt);
+}
+
+.yellow {
+    background-color: var(--badge-yellow-bg);
+    color: var(--badge-yellow-txt);
+}
+
+.green {
+    background-color: var(--badge-green-bg);
+    color: var(--badge-green-txt);
+}
+
+.blue {
+    background-color: var(--badge-blue-bg);
+    color: var(--badge-blue-txt);
+}
+
+.indigo {
+    background-color: var(--badge-indigo-bg);
+    color: var(--badge-indigo-txt);
+}
+
+.purple {
+    background-color: var(--badge-purple-bg);
+    color: var(--badge-purple-txt);
+}
+
+.pink {
+    background-color: var(--badge-pink-bg);
+    color: var(--badge-pink-txt);
+}
