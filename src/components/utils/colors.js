@@ -32,3 +32,7 @@ export const colors = [
         color: "var(--badge-pink-txt)"
     }
 ]
+
+export function getRandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)]
+}
