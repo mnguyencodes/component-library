@@ -1,8 +1,18 @@
 import clsx from "clsx"
-import {colors, getRandomColor} from "./utils/colors"
+import {getRandomColor} from "./utils/colors"
 import "./Badge.css"
 
-export default function Badge({children="Badge", type="square", color="gray"}) {
+export default function Badge({
+    children="Badge", 
+    type="square", 
+    color="gray", 
+    useRandomColor=false
+}) {
+    if (useRandomColor) {
+        color = getRandomColor()
+        console.log(color)
+    }
+
     const allClasses = clsx("badge", type, color)
     return (
         <div 
