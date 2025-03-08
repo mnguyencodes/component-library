@@ -10,7 +10,6 @@ export default function Badge({
 }) {
     if (useRandomColor) {
         color = getRandomColor()
-        console.log(color)
     }
 
     const allClasses = clsx("badge", type, color)
