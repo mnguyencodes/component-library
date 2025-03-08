@@ -8,6 +8,10 @@
     border-radius: 4px;
 }
 
+.pill {
+    border-radius: 20px;
+}
+
 .gray {
     background-color: var(--badge-gray-bg);
     color: var(--badge-gray-txt);
