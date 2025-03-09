@@ -5,4 +5,4 @@ import {
     faCircleXmark,
     faCircleInfo
 } from '@fortawesome/free-solid-svg-icons'
-
+import './Banner.css'
