@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 
   --badge-gray-bg: #F3F4F6;
   --badge-gray-txt: #1F2937;
@@ -28,6 +27,21 @@
   --badge-pink-bg: #FCE7F3;
   --badge-pink-txt: #9D174D;
 
+  --banner-success-bg: #ECFDF5;
+  --banner-success-title: #065F46;
+  --banner-success-text: #047857;
+
+  --banner-warning-bg: #FFFBEB;
+  --banner-warning-title: #92400E;
+  --banner-warning-text: #B45309;
+
+  --banner-error-bg: #FEF2F2;
+  --banner-error-title: #92400E;
+  --banner-error-text: #B45309;
+
+  --banner-neutral-bg: #EFF6FF;
+  --banner-neutral-title: #1E40AF;
+  --banner-neutral-text: #1C51B9;
 }
 
 .logo {
