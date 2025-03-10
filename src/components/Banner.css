@@ -1,7 +1,14 @@
 .banner {
     display: flex;
-    flex-direction: column;
     padding: 1em;
+}
+
+.icon {
+    margin: 0;
+}
+
+.banner-text-container {
+    margin-left: 1em;
 }
 
 .banner p {
