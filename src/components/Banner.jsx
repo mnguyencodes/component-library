@@ -4,10 +4,17 @@ import {bannerVariants} from "./utils/BannerData"
 import clsx from "clsx"
 
 export function Banner({children, variant}) {
+    const type = bannerVariants.find(banVariant=>banVariant.variant===variant) || ""
 
     return (
         <div className="banner">
-            {children}
+            {type?.icon && <FontAwesomeIcon 
+                className="icon" 
+                icon={type.icon} 
+            />}
+            <div className="banner-text-container">
+                {children}
+            </div>
         </div>
     )
 }
