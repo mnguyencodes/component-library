@@ -1,13 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { 
-    faCircleCheck,
-    faTriangleExclamation,
-    faCircleXmark,
-    faCircleInfo
-} from '@fortawesome/free-solid-svg-icons'
 import './Banner.css'
+import {bannerVariants} from "./utils/BannerData"
+import clsx from "clsx"
 
-export function Banner({children}) {
+export function Banner({children, variant}) {
+
     return (
         <div className="banner">
             {children}
