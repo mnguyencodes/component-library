@@ -16,49 +16,65 @@
 }
 
 .banner-success {
-    background-color: #ECFDF5;
+    background-color: var(--banner-success-bg)
 }
 
-.banner-warning {
-    background-color: #FFFBEB;
-}
-
-.banner-error {
-    background-color: #FEF2F2;
-}
-
-.banner-neutral {
-    background-color: #EFF6FF;
+.banner-success-icon {
+    color: var(--banner-success-icon)
 }
 
 .banner-success-title {
-    color: #065F46;
+    color: var(--banner-success-title)
+}
+
+.banner-success-text {
+    color: var(--banner-success-text)
+}
+
+.banner-warning {
+    background-color: var(--banner-warning-bg)
+}
+
+.banner-warning-icon {
+    color: var(--banner-warning-icon)
 }
 
 .banner-warning-title {
-    color: #92400E;
+    color: var(--banner-warning-title)
+}
+
+.banner-warning-text {
+    color: var(--banner-warning-text)
+}
+
+.banner-error {
+    background-color: var(--banner-error-bg)
+}
+
+.banner-error-icon {
+    color: var(--banner-error-icon)
 }
 
 .banner-error-title {
-    color: #92400E;
+    color: var(--banner-error-title)
+}
+
+.banner-error-text {
+    color: var(--banner-error-text)
+}
+
+.banner-neutral {
+    background-color: var(--banner-neutral-bg)
+}
+
+.banner-neutral-icon {
+    color: var(--banner-neutral-icon)
 }
 
 .banner-neutral-title {
-    color: #1E40AF;
+    color: var(--banner-neutral-title)
 }
 
-.banner-success-text{
-    color: #047857;
-}
-
-.banner-warning-text{
-    color: #B45309;
-}
-
-.banner-error-text{
-    color: #B45309;
-}
-
-.banner-neutral-text{
-    color: #1C51B9;
+.banner-neutral-text {
+    color: var(--banner-neutral-text)
 }
