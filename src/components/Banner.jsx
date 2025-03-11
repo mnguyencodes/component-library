@@ -19,24 +19,17 @@ export function Banner({children, variant}) {
 export function BannerTitle({children}) {
     const variant = useContext(BannerContext)
     const type = bannerVariants.find(banVariant=>banVariant.variant===variant) || ""
-
     return (
-        <div className="banner">
+        <div className="banner-title-container">
             {type?.icon && <FontAwesomeIcon 
                 className="icon" 
                 icon={type.icon} 
             />}
-            <div className="banner-text-container">
-                {children}
-            </div>
+            <p className="banner-title">{children}</p>
         </div>
     )
 }
 
-export function BannerTitle({children}) {
-    return <p>{children}</p>
-}
-
-export function BannerParagraph({children}) {
-    return <p>{children}</p>
+export function BannerText({children}) {
+    return <p className="banner-text">{children}</p>
 }
