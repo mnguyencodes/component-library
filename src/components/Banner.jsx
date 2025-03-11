@@ -7,6 +7,17 @@ import {useContext, createContext} from "react"
 const BannerContext = createContext()
 
 export function Banner({children, variant}) {
+    return (
+        <BannerContext.Provider value={variant}>
+            <div className="banner">
+                {children}
+            </div>
+        </BannerContext.Provider>
+    )
+}
+
+export function BannerTitle({children}) {
+    const variant = useContext(BannerContext)
     const type = bannerVariants.find(banVariant=>banVariant.variant===variant) || ""
 
     return (
