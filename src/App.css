@@ -28,18 +28,22 @@
   --badge-pink-txt: #9D174D;
 
   --banner-success-bg: #ECFDF5;
+  --banner-success-icon: #34D399;
   --banner-success-title: #065F46;
   --banner-success-text: #047857;
 
   --banner-warning-bg: #FFFBEB;
+  --banner-warning-icon: #FBBF24;
   --banner-warning-title: #92400E;
   --banner-warning-text: #B45309;
 
   --banner-error-bg: #FEF2F2;
+  --banner-error-icon: #F87171;
   --banner-error-title: #92400E;
   --banner-error-text: #B45309;
 
   --banner-neutral-bg: #EFF6FF;
+  --banner-neutral-icon: #60A5FA;
   --banner-neutral-title: #1E40AF;
   --banner-neutral-text: #1C51B9;
 }
