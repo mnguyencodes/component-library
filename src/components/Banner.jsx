@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Banner.css'
 import {bannerVariants} from "./utils/BannerData"
 import clsx from "clsx"
+import {useContext} from "react"
 
 export function Banner({children, variant}) {
     const type = bannerVariants.find(banVariant=>banVariant.variant===variant) || ""
