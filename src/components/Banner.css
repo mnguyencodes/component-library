@@ -1,14 +1,46 @@
-.banner {
-    display: flex;
-    padding: 1em;
+.banner-title-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+        "ic bti"
+        ". bte";
+    grid-auto-columns: 5em;
+    /* gap: 2em; */
+    /* grid-auto-rows: auto; */
+    align-items: center;
+
+    column-gap: 1em;
+    /* row-gap: 0.5em; */
+    /* padding: 1em; */
+    border-radius: 6px;
 }
 
 .icon {
-    margin: 0;
+    grid-area: ic;
+}
+
+.banner-title {
+    grid-area: bti;
+    /* justify-self: start; */
+    /* margin-left: 2em; */
+}
+
+.banner-text {
+    grid-area: bte;
+    /* justify-self: start; */
+    padding: 1em;
+    /* padding-left: 2em; */
+    /* display: flex; */
+}
+
+.banner-title-container {
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 1em; */
 }
 
 .banner-text-container {
-    margin-left: 1em;
+    /* margin-left: 1em; */
 }
 
 .banner p {
