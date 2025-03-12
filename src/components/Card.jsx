@@ -1,7 +1,7 @@
 import "./Card.css"
 import brandIcon from "../assets/brand-icon.png"
 
-export function Card() {
+export function Card({children}) {
     return (
         <div className="card">
             <img src={brandIcon}/> 
@@ -10,14 +10,14 @@ export function Card() {
     )
 }
 
-export function CardTitle() {
+export function CardTitle({children}) {
     return (
-        <div className="card-title">CardTitle Component Goes Here!</div>
+        <div className="card-title">{children}</div>
     )
 }
 
-export function CardText() {
+export function CardText({children}) {
     return (
-        <div className="card-text">CardText Component Goes Here!</div>
+        <div className="card-text">{children}</div>
     )
 }
