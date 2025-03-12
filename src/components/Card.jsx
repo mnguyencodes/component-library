@@ -4,7 +4,7 @@ import brandIcon from "../assets/brand-icon.png"
 export function Card({children}) {
     return (
         <div className="card">
-            <img src={brandIcon}/> 
+            <img src={brandIcon} alt="Card logo"/> 
             {children}
         </div>
     )
@@ -12,12 +12,12 @@ export function Card({children}) {
 
 export function CardTitle({children}) {
     return (
-        <div className="card-title">{children}</div>
+        <p className="card-title">{children}</p>
     )
 }
 
 export function CardText({children}) {
     return (
-        <div className="card-text">{children}</div>
+        <p className="card-text">{children}</p>
     )
 }
