@@ -1,8 +1,12 @@
 import "./Card.css"
+import brandIcon from "../assets/brand-icon.png"
 
 export function Card() {
     return (
-        <div className="card">Card Component Goes Here!</div>
+        <div className="card">
+            <img src={brandIcon}/> 
+            {children}
+        </div>
     )
 }
 
