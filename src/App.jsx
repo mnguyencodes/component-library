@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Badge from './components/Badge'
 import {Banner, BannerTitle, BannerText} from './components/Banner'
 import {Card, CardTitle, CardText} from './components/Card'
+import {TestimonialWithPicture, TestimonialWithoutPicture} from './components/Testimonial'
 import './App.css'
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           <CardTitle>A title!</CardTitle>
           <CardText>A paragraph!</CardText>
         </Card>
+        <TestimonialWithPicture>With Picture!</TestimonialWithPicture>
+        <TestimonialWithoutPicture>Without Picture!</TestimonialWithoutPicture>
+        <h1>Test</h1>
       </div>
       
     </>
