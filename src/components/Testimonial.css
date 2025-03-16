@@ -37,6 +37,12 @@
     padding-inline: 1.5em;
 }
 
+.testimonial-quote {
+    display: block;
+    width: 2.5em;
+    margin: 1.5em;
+}
+
 .m0 {
     margin: 0;
 }

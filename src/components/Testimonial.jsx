@@ -1,4 +1,5 @@
 import "./Testimonial.css"
+import quote from "../assets/quote.png"
 
 export function TestimonialWithPicture({children, src}) {
     return (
@@ -7,6 +8,7 @@ export function TestimonialWithPicture({children, src}) {
                 <img src={src} />
             </div>
             <div className="test-pic-container-bottom">
+                <img className="testimonial-quote" src={quote} alt="double quotation mark" />
                 {children}
             </div>
         </div>
